@@ -42,7 +42,7 @@ def showMovies():
 
 @app.route("/process", methods=["POST"])
 def process(): # zeigt die ADD_Movie Seite an
-    return render_template("AddMovies.html")
+    return render_template("addmovies.html")
 
 
 @app.route("/register", methods=["GET"])

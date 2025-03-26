@@ -41,9 +41,9 @@
     <Folder Include="Moviebase\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Moviebase\templates\Login.html" />
-    <Content Include="Moviebase\templates\Moviepage.html" />
-    <Content Include="Moviebase\templates\AddMovies.html" />
+    <Content Include="Moviebase\templates\login.html" />
+    <Content Include="Moviebase\templates\moviepage.html" />
+    <Content Include="Moviebase\templates\addmovies.html" />
     <Content Include="Moviebase\templates\register.html" />
     <Content Include="requirements.txt" />
     <Content Include="Moviebase\static\content\bootstrap.css" />

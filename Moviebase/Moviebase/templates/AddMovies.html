@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -15,6 +14,7 @@
     </nav>
     <div class="container">
         <h2 class="mb-4">Neuen Film hinzufügen</h2>
+        <!-- Alle Felder und der Button im selben <form>-Element -->
         <form action="/insert" method="POST">
             <div class="mb-3">
                 <label for="title" class="form-label">Titel</label>
@@ -30,17 +30,17 @@
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Beschreibung</label>
-                <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+<textarea class="form-control" id="description" name="description" rows="3" required></textarea>
             </div>
             <div class="mb-3">
                 <label for="rating" class="form-label">Bewertung (0 - 10)</label>
                 <input type="number" step="0.1" min="0" max="10" class="form-control" id="rating" name="rating" required>
             </div>
-        </form>
-        <form method="POST" action="/insert">
+            <!-- Absende-Button und Zurück-Link -->
             <button type="submit" class="btn btn-primary">Film hinzufügen</button>
             <a href="/" class="btn btn-secondary ms-2">Zurück</a>
         </form>
     </div>
 </body>
 </html>
+
